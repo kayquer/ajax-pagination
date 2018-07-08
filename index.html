@@ -1,0 +1,169 @@
+
+
+  <html>
+      <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      </head>
+      <body>
+           <!--Main Navigation-->
+    <header>
+ 
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+            <div class="container">
+
+                <!-- Brand -->
+                <a class="navbar-brand waves-effect" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
+                    <strong class="blue-text">Pagination</strong>
+                </a>
+
+                <!-- Collapse -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <!-- Left -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link waves-effect" href="#">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect" href="#" target="_blank">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect" href="#" target="_blank">Data </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect" href="#" target="_blank">View</a>
+                        </li>
+                    </ul>
+
+                    <!-- Right -->
+                    <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link waves-effect" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link waves-effect" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link border border-light rounded waves-effect"
+                                target="_blank">
+                                <i class="fa fa-github mr-2"></i>GitHub
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+        <!-- Navbar -->
+
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main class="mt-5 pt-5">
+        <div class="container">
+
+            <!--Section: Jumbotron-->
+            <section class="card wow fadeIn" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);">
+
+                <!-- Content -->
+                <div class="card-body text-white text-center py-5 px-5 my-5">
+
+                    <h1 class="mb-4">
+                        <strong>Pagination Com Ajax</strong>
+                    </h1>
+                    <p>
+                        <strong>Can you make pink a little more pinkish it looks a bit empty, try to make everything bigger</strong>
+                    </p>
+                    <p class="mb-4">
+                        <strong>Im not sure, try something else can you pimp this powerpoint, need more geometry patterns, the hair is just too polarising. Could you do an actual logo instead of a font can you make it more infographic-y is this the best we can do try a more powerful colour can we try some other colours maybe can you make the blue bluer? and can we have another option</strong>
+                    </p>
+                    <a target="_blank" href="http://officeipsum.com/index.php" class="btn btn-outline-white btn-lg">Dummy Text thanks to officeipsum
+                        <i class="fa fa-graduation-cap ml-2"></i>
+                    </a>
+
+                </div>
+                <!-- Content -->
+            </section>
+            <!--Section: Jumbotron-->
+
+            <hr class="my-5">
+            <div class="col-md-12">
+                <div class="input-group">
+                    <input id="pesquisaNomeVal" type="text" class="form-control" placeholder="Search">
+                    <div class="input-group-btn">
+                      <button id="pesquisaNome" class="btn btn-default" type="submit">
+                        <i class="fa fa-search"> </i>
+                      </button>
+                    </div>
+                  </div>
+                  <button id="pesquisaOrdenar" class="btn btn-default" >Ordenar</button>
+                  <button id="numResultados" style= "display:none"class="btn btn-success" ></button>
+            </div>
+            <!--Section: Cards-->
+            <section class=" text-center">
+
+                <article id="itens"></article>
+
+                   <input type="hidden" id="paginaAtual" value="1"> 
+                <!--Pagination-->
+                <nav class="d-flex justify-content-center wow fadeIn">
+                    <ul id="paginacao" class="pagination pg-blue">
+
+
+
+                    </ul>
+                </nav>
+                <!--Pagination-->
+
+            </section>
+            <!--Section: Cards-->
+
+        </div>
+    </main>
+    <!--Main layout-->
+
+    <!--Footer-->
+    <footer class="page-footer text-center font-small mdb-color darken-2 mt-4 wow fadeIn">
+
+
+
+        <hr class="my-4">
+
+        
+
+        <!--Copyright-->
+        <div class="footer-copyright py-3">
+            © 2018 
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+      </body>
+      
+      <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    
+      <script  src="scripts.js"></script>
+
+
+
+  </html>
